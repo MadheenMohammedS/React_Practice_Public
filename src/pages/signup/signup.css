@@ -1,0 +1,66 @@
+
+
+.signup-wrapper {
+    margin: 50px auto 0;
+    border: 1px solid #eaeaea;
+    padding: 40px;
+    text-align: left;
+    max-width: 980px;
+    border-radius: 8px;
+}
+.logo, .title {
+    margin-bottom: 16px;
+}
+.title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+.sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.eye-btn {
+    max-width: 50px;
+    flex: 0 0 50px;
+    padding: 0;
+    margin-bottom: 5px;
+}
+form .row {
+    margin-bottom: 30px;
+    position: relative;
+}
+.floating-label {
+    position: absolute;
+    right: 40px;
+    top: 7px;
+}
+
+.floating-label + input {
+    margin-bottom: 5px;
+}
+
+.img-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control {
+    border-radius: 2px;
+}
+
+.img-text {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.next-btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 10px 30px;
+}
