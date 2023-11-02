@@ -1,8 +1,9 @@
 import React from "react";
-import { Container, Row, Col, Image, Form, Button } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import GoogleLogo from "../../assets/google-logo.svg";
 import ImageComp from "../../components/imageComp/imageComp";
 import './signup.css'
+import { Link } from "react-router-dom";
 class Signup extends React.Component {
   render() {
     return (
@@ -12,7 +13,7 @@ class Signup extends React.Component {
           <Row>
             <Col md={8} lg={8} xl={8} xxl={8} >
               <div className="logo">
-                <Image src={GoogleLogo} alt="Logo" />
+                <img src={GoogleLogo} alt="Logo" />
               </div>
               <h1 className="title">Create your Google Account</h1>
               <p className="sub-title">to continue to Gmail</p>
@@ -62,7 +63,7 @@ class Signup extends React.Component {
                   <Button variant="link" className="signin-btn">Sign in instead</Button>
                   </Col>
                   <Col className="d-flex justify-content-end">
-                  <Button variant="primary" className="next-btn">Next</Button>
+                  <Link to="home" className="next-btn btn btn-primary">Next</Link>
                   </Col>
                 </Row>
               </Form>

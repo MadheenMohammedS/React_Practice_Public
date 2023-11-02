@@ -1,0 +1,68 @@
+header {
+    padding: 10px 20px 20px;
+}
+.search-mail-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+.search-mail-wrapper {
+  flex: 1 0 auto;
+}
+.h-logo {
+    display: inline-block;
+    margin-top: 10px;
+}
+.search-mail-wrapper form > div {
+  display: flex;
+  position: relative;
+}
+.search-mail-wrapper .search-btn {
+  width: 24px;
+  height: 24px;
+  background-image: url("../../assets/search.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.search-mail-wrapper input {
+  padding-left: 50px;
+  border: 0;
+  height: 50px;
+  background-color: #edf3fc;
+  border-radius: 8px;
+}
+.active-dropdown {
+    border: 1px solid #e7e9ed;
+    flex: 0 0 180px;
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.h-btn {
+    width:24px;
+    height:24px;
+    background-image: url('../../assets/help.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+}
+
+.setting-btn {
+    background-image: url('../../assets/settings.svg');
+}
+.apps-btn {
+    background-image: url('../../assets/app.svg');
+}
+.profile-btn {
+    background-image: url('../../assets/profile.png');
+}
