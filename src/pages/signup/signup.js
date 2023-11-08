@@ -215,7 +215,7 @@ class Signup extends React.Component {
                       value={this.state.userDetails.email}
                       onChange={this.onChangeHandler} />
                     <p className="hint" >You can use letters, numbers & periods</p>
-                    {/* <div className="text-danger">{this.state.errors.email}</div> */}
+                    <div className="text-danger">{this.state.errors.email}</div>
                     </Form.Group>
                   </Col>
                 </Row>
