@@ -27,6 +27,18 @@
     flex: 0 0 50px;
     padding: 0;
     margin-bottom: 5px;
+    padding-top: 5px;
+}
+.eye-on, .eye-off {
+    background-image: url('../../assets/visibility.svg');
+    color: transparent !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    border:0;
+}
+.eye-off {
+    background-image: url('../../assets/visibility_off.svg');
 }
 form .row {
     margin-bottom: 30px;

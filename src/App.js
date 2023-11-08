@@ -3,6 +3,7 @@ import './App.css';
 import Signup from './pages/signup/signup.js';
 import Home from './pages/home/home.js';
 import {Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+// import Test from './pages/test/test.js';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
           <Route exact path="/home" element={<Home />} />
         </Routes>
       </Router>
+      {/* <Test /> */}
+
     </div>
   );
 }
