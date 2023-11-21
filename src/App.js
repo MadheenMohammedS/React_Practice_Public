@@ -1,23 +1,24 @@
 //import logo from './logo.svg';
 import './App.css';
-import Signup from './pages/signup/signup.js';
-import Home from './pages/home/home.js';
-import {Route, Routes, BrowserRouter as Router } from 'react-router-dom';
+// import Signup from './pages/signup/signup.js';
+// import Home from './pages/home/home.js';
+// import {Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 // import Test from './pages/test/test.js';
-
+import EmployeeForm from './components/crudForm/employeeForm.js';
 
 function App() {
+  
   return (
     <div className="App">
      
-      <Router>
+      {/* <Router>
         <Routes>
           <Route exact path="/" element={<Signup />} />
           <Route exact path="/home" element={<Home />} />
         </Routes>
-      </Router>
+      </Router> */}
       {/* <Test /> */}
-
+    <EmployeeForm  />
     </div>
   );
 }
